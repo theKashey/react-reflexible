@@ -1,0 +1,52 @@
+{
+  "name": "react-reflexible",
+  "version": "1.0.0",
+  "description": "Responsible component shift shaper!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "ts-react-toolbox dev",
+    "bootstrap": "ts-react-toolbox init",
+    "test": "ts-react-toolbox test",
+    "test:ci": "ts-react-toolbox test --runInBand --coverage",
+    "test:size": "size-limit",
+    "build": "ts-react-toolbox build",
+    "release": "ts-react-toolbox release",
+    "prepublishOnly": "yarn build",
+    "lint": "ts-react-toolbox lint",
+    "static": "ts-react-toolbox publish",
+    "typecheck:flow": "flow check",
+    "format": "ts-react-toolbox format",
+    "analyze": "ts-react-toolbox analyze"
+  },
+  "repository": "",
+  "bugs": {
+    "url": "https://github.com/theKashey/react-reflexible/issues"
+  },
+  "homepage": "https://github.com/theKashey/react-reflexible#readme",
+  "author": "Anton Korzunov (thekashey@gmail.co)",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-react-toolbox": "^0.1.10"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "keywords": [
+    "text",
+    "adaptive",
+    "responsible",
+    "flex"
+  ],
+  "dependencies": {
+    "@types/invariant": "^2.2.29",
+    "invariant": "^2.2.4",
+    "react-style-singleton": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  }
+}
