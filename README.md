@@ -6,9 +6,11 @@
   <br/>  
   <img src="./assets/cats.gif" alt="Cat!" height="80" align="center"/>
   <br/>
-  <a href="https://www.npmjs.com/package/react-nyan-stroller">
-   <img src="https://img.shields.io/npm/v/react-nyan-stroller.svg?style=flat-square" />
-  </a>  
+  <a href="https://www.npmjs.com/package/react-reflexible">
+   <img src="https://img.shields.io/npm/v/react-reflexible.svg?style=flat-square" />
+  </a> 
+  <br/>
+  <a href="https://codesandbox.io/s/7o41xvwq0">DEMO</a> 
 </div> 
 
 __RE__-sponsible and __FLEX__-ible string. Automatically picks string
